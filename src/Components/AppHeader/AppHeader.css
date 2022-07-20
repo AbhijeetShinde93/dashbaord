@@ -1,0 +1,39 @@
+.app-header-inner {
+  position: relative;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.dashbaord-home-link {
+  color: #00c08b;
+}
+
+.dashbaord-home-link:hover {
+  color: #00c08b;
+}
+
+.dashbaord-home-link h4 {
+  margin-bottom: 0;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.app-utilities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-utilities .app-utility-item {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.app-utility-item .user-profile-container img {
+  width: 36px;
+  height: 36px;
+}

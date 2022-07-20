@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.App {
+  overflow-x: hidden;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Public Sans", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1.1px;
+  scroll-behavior: smooth;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.Loader-glass {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: -webkit-translate(-50%, -50%);
+  transform: -moz-translate(-50%, -50%);
+  transform: -ms-translate(-50%, -50%);
+}
